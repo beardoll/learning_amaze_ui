@@ -12,11 +12,11 @@ $('#tags-2').tagsinput('items')
 // ["Amsterdam", "Washington", "Sydney", "Beijing", "Cairo"]*/
 
 
-/*var citynames = new Bloodhound({
+var citynames = new Bloodhound({
   datumTokenizer: Bloodhound.tokenizers.obj.whitespace('name'),
   queryTokenizer: Bloodhound.tokenizers.whitespace,
   prefetch: {
-    url: 'js/citynames.json',
+    url: 'docs/js/citynames.json',
     filter: function(list) {
       return $.map(list, function(cityname) {
         return { name: cityname }; });
@@ -34,9 +34,9 @@ $(function() {
       source: citynames.ttAdapter()
     }
   });
-});*/
+});
 
-var cities = new Bloodhound({
+/*var cities = new Bloodhound({
   datumTokenizer: Bloodhound.tokenizers.obj.whitespace('text'),
   queryTokenizer: Bloodhound.tokenizers.whitespace,
   prefetch: 'assets/cities.json'
@@ -65,7 +65,7 @@ var ab = $('#obj-as-tags').val();
 
 console.log(ab);
 
-$('#obj-as-tags').tagsinput('items');
+$('#obj-as-tags').tagsinput('items');*/
 // [{"value":1,"text":"Amsterdam","continent":"Europe"},{"value":4,"text":"Washington","continent":"America"},{"value":7,"text":"Sydney","continent":"Australia"},{"value":10,"text":"Beijing","continent":"Asia"},{"value":13,"text":"Cairo","continent":"Africa"}]
 
 /*$(function() {

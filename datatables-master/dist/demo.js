@@ -11,17 +11,14 @@ jQuery.extend(jQuery.fn.dataTableExt.oSort, {
   }
 });
 
-/*$(function() {
+$(function() {
   $('#my-table').DataTable({
     columnDefs: [
       {type: 'chinese-string', targets: '_all'}
     ]
   });
-});*/
-
-$(function() {
-  $('#example').DataTable();
 });
+
 
 /*$('#example-r').DataTable({
   responsive: true,
