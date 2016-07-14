@@ -1,0 +1,183 @@
+
+* {
+    margin: 0;
+    padding: 0;
+    border:0;
+}
+
+
+/*.my-box{
+    width: 600px;
+    height: 1000px;
+    margin-left: 0px;
+}*/
+
+
+.my-header{
+    height: 40px;
+    width: 96%;
+    background: white;
+    float: left;
+}
+
+
+.my-header-btn{
+    margin-top: 3px;
+}
+
+.my-header-text{
+    margin-top: 8px;
+}
+
+.my-sidebar{
+    width : 4%;
+    height: 1000px;
+    background: snow;
+    padding-left: 0px;
+    margin-left: 0px;
+    float: left;
+}
+
+.my-sidebar-content{
+    margin:auto;
+    margin-top: 300px;
+}
+
+.my-sidebar-content>a{
+    margin-left: 12px;
+}
+
+.my-sidebar-expand{
+    margin: auto;
+    margin-top: 100px;
+}
+
+.my-sidebar-expand>a{
+    margin-left: 12px;
+}
+
+.my-divider{
+    float: left;
+    position: relative;
+    margin-left: 0px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    width:96%;
+    height:5px;
+}
+
+.my-body {
+    position: relative;
+    float: left;
+    height: 800px;
+    width: 70%;
+    margin-left: 13%;
+    background: snow;
+    padding: 0px;
+}
+
+.my-body-header{
+    width: 100%;
+    height: 70px;
+    margin: auto;
+    background: #a2fca2;
+}
+
+.my-body-header>div{
+    height: 80%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.my-body-nav{
+    width: 100%;
+    height: 110px;
+    background: snow;
+}
+
+.my-body-list-1{
+    width: 320px;
+    border: 1px solid red;
+    margin-top: 10px;
+    background: white;
+    float: left;
+}
+
+.my-body-list-1 table tr td{
+    padding-left: 20px;
+}
+
+.my-body-list-2{
+    width: 980px;
+    border: 1px solid red;
+    margin-top: 10px;
+    background: white;
+    float: left;
+    margin-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.my-body-list-2 table tr td{
+    height: 30px;
+    width: 200px;
+    text-align: center;
+}
+
+.my-body-list-3{
+    width: 320px;
+    border: 1px solid red;
+    margin-top: 10px;
+    background: white;
+    float: left;
+}
+
+.my-body-list-4{
+    width: 320px;
+    border: 1px solid red;
+    margin-top: 10px;
+    background: white;
+    float: left;
+}
+
+.list4-tab-2 table td{
+    width: 160px;
+    text-align: center;
+}
+
+.my-body-list-5{
+    width: 980px;
+    border: 1px solid red;
+    margin-top: 10px;
+    background: white;
+    float: left;
+    margin-left: 30px;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 20px;
+
+}
+
+.my-body-list-5 table{
+    margin-left: 10px;
+    margin-top: 10px;
+}
+
+.list5-table{
+    width: 130px;
+    height: 30px;
+    text-align: left;
+}
+
+.list5-tableh{
+    width: 60px;
+    color: #00b0e8;
+}
+
+.list5-tablet{
+    width: 80px;
+    font-size: small;
+    color: grey;
+    text-align: center;
+
+}

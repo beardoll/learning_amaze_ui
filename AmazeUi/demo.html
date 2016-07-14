@@ -33,13 +33,471 @@
 
     <link rel="stylesheet" href="assets/css/amazeui.min.css">
     <link rel="stylesheet" href="assets/css/app.css">
+    <link rel="stylesheet" href="assets/css/demo.css">
 </head>
 <body>
-<p>
+<!--<p>
     Hello Amaze UI.
-</p>
+</p>-->
 
-<!--在这里编写你的代码-->
+
+<div class="my-sidebar am-g doc-am-g">
+    <div class="my-sidebar-content">
+        <a href="#" class="am-text-center"><i class="am-icon-btn am-primary am-icon-qq"></i><p>腾讯直播</p></a>
+        <a href="#" class="am-text-center"><i class="am-icon-btn am-primary am-icon-twitter"></i><p>推特</p></a>
+        <a href="#" class="am-text-center"><i class="am-icon-btn am-primary am-icon-github"></i><p>Git</p></a>
+    </div>
+    <div class="my-sidebar-expand">
+        <a href="#"><i class="am-icon-btn am-icon-angle-left"></i> </a>
+    </div>
+</div>
+<div class="my-header am-g">
+    <div class="am-u-lg-4 am-u-lg-offset-3 my-header-btn">
+        <button class="am-btn am-btn-warning">设360为主页</button>
+    </div>
+    <div class="am-u-lg-3 am-u-lg-offset-1 my-header-text">
+        <a href="#" class="am-header-nav-title ">中国互联网举报中心&nbsp;</a>|
+        <a href="#" class="am-header-nav-title ">反馈意见&nbsp;</a>|
+        <a href="#" class="am-header-nav-title ">换肤</a>
+    </div>
+</div>
+<!--<hr data-am-widget="divider" style="width: 600px;height: 5px" class="my-divider am-divider am-divider-default" />-->
+<hr class="my-divider" />
+
+<div class="my-body">
+    <div class="my-body-header am-g">
+        <div class="my-nav-name am-u-lg-3" style="border-right:1px solid silver">
+            <div style="margin-left: 100px">
+                <h1><span style="color: #00AA00"> 360</span>&nbsp;导航</h1>
+            </div>
+        </div>
+        <div class="am-u-lg-2" style="border-right:1px solid silver">
+            <div style="margin-top: 10px" >
+                <span>当前地点：&nbsp; 北京</span>
+                <a href="#" >[切换]</a>
+            </div>
+        </div>
+        <div class="am-u-lg-2" style="border-right:1px solid silver">
+            <div style="margin-top: 0px;margin-left: 30px" >
+                <i class="am-icon-moon-o"></i>
+                <span>&nbsp;&nbsp;多云 &nbsp;23℃</span><br>
+                <span>2016年7月12日</span>
+            </div>
+        </div>
+        <div class="am-u-lg-2" style="border-right:1px solid silver">
+            <div style="margin-top: 10px;margin-left: 10px">
+                <span>空气质量:&nbsp;</span>
+                <button class="am-btn am-btn-danger am-btn-sm" >重污染</button>
+            </div>
+        </div>
+        <div class="am-u-lg-3">
+            <div class="am-form-group am-form-icon" style="margin-left: 10px;margin-top: 5px">
+                <i class="am-icon-cloud"></i>
+                <input type="text" class="am-form-field" placeholder="邮箱" style="width:200px">
+            </div>
+        </div>
+    </div>
+    <div class="my-body-nav">
+        <div style="margin-left: 300px">
+            <ul class="am-nav am-nav-pills">
+                <li><a href="#">网页</a></li>
+                <li><a href="#">新闻</a></li>
+                <li><a href="#">视频</a></li>
+                <li><a href="#">图片</a></li>
+                <li><a href="#">音乐</a></li>
+                <li><a href="#">微博</a></li>
+                <li><a href="#">问答</a></li>
+                <li><a href="#">购物</a></li>
+                <li><a href="#">机票</a></li>
+                <li><a href="#">汽车</a></li>
+            </ul>
+        </div>
+        <div class="am-g" style="width: 900px;margin-left: 150px">
+            <div class="am-u-lg-2 am-text-right">
+                    <i class="am-icon-search"></i>
+                    <div class="am-dropdown" data-am-dropdown>
+                        <a class="am-dropdown-toggle"  style="color: #00AA00" data-am-dropdown-toggle href="javascript:;">
+                            360搜索 <span class="am-icon-caret-down"></span>
+                        </a>
+                        <ul class="am-dropdown-content">
+                            <li><a href="#">谷歌</a></li>
+                            <li class="am-active"><a href="#">必应</a></li>
+                            <li><a href="#">百度</a></li>
+                            <li><a href="#">搜搜</a></li>
+                        </ul>
+                    </div>
+            </div>
+            <div class="am-u-lg-9" style="padding-left: 0px">
+                <input id="my-body-nav-input"  type="text" class="am-form-field" style="width:685px">
+            </div>
+            <div class="am-u-lg-1">
+                <button type="button" class="am-btn am-btn-default">搜一下</button>
+            </div>
+        </div>
+        <div style="margin-left: 234px">
+            <span style="font-size: small">常用网址: &nbsp;</span>
+            <a href="#"><span class="am-badge am-badge-primary">新浪</span></a>
+            <a href="#"><span class="am-badge am-badge-primary">腾讯</span></a>
+                <a href="#"><span class="am-badge am-badge-primary">百度</span></a>
+        </div>
+    </div>
+
+    <div class="my-tabs" style="padding-top: 0px">
+        <div data-am-widget="tabs"  class="am-tabs am-tabs-default" style="padding: 0px;margin: 0px">
+            <ul class="am-tabs-nav am-cf" style="border-top: 1px solid silver;border-left: 1px solid silver;border-right: 1px solid silver">
+                <li class="am-active"><a href="[data-tab-panel-0]"><i class="am-icon-home"></i>&nbsp;&nbsp;&nbsp;推荐网站</a></li>
+                <li class=""><a href="[data-tab-panel-1]"><i class="am-icon-file"></i>&nbsp;&nbsp;&nbsp;新闻头条</a></li>
+                <li class=""><a href="[data-tab-panel-2]"><i class="am-icon-television"></i>&nbsp;&nbsp;&nbsp;电视剧</a></li>
+                <li class=""><a href="[data-tab-panel-3]"><i class="am-icon-film"></i>&nbsp;&nbsp;&nbsp;最新电影</a></li>
+                <li class=""><a href="[data-tab-panel-4]"><i class="am-icon-gamepad"></i>&nbsp;&nbsp;&nbsp;小游戏</a></li>
+                <li class=""><a href="[data-tab-panel-5]"><i class="am-icon-book"></i>&nbsp;&nbsp;&nbsp;小说大全</a></li>
+                <li class=""><a href="[data-tab-panel-6]"><i class="am-icon-tripadvisor"></i>&nbsp;&nbsp;&nbsp;旅游度假</a></li>
+                <li class=""><a href="[data-tab-panel-7]"><i class="am-icon-shopping-bag"></i>&nbsp;&nbsp;&nbsp;网上购物</a></li>
+                <li class=""><a href="[data-tab-panel-8]"><i class="am-icon-ambulance"></i>&nbsp;&nbsp;&nbsp;好药特惠</a></li>
+            </ul>
+            <div class="am-tabs-bd" style="border-bottom: 1px solid silver;border-left: 1px solid silver;border-right: 1px solid silver">
+                <div data-tab-panel-0 class="am-tab-panel am-active">
+                    <a href="#">人民网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#">新华网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#">央视网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#">人民网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#">中国网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#">国际在线&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#">中国日报网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#">中国经济网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#">光明网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#">央广网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#">求是网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#">中国青年网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                    <a href="#">网信网&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a>
+                </div>
+                <div data-tab-panel-1 class="am-tab-panel">
+                    我走过最远的路，是你们的套路
+                </div>
+                <div data-tab-panel-2 class="am-tab-panel">
+                    多一分真诚，少一点套路
+                </div>
+                <div data-tab-panel-3 class="am-tab-panel">
+                    秀恩爱，分得快
+                </div>
+                <div data-tab-panel-4 class="am-tab-panel">
+                    没有人嘲笑你的梦想，他们只是嘲笑你的实力
+                </div>
+                <div data-tab-panel-5 class="am-tab-panel">
+                    你这么吊你爸妈知道吗？
+                </div>
+                <div data-tab-panel-6 class="am-tab-panel">
+                    风吹鸡蛋壳，牌去人安乐
+                </div>
+                <div data-tab-panel-7 class="am-tab-panel">
+                    你咋不上天咧？
+                </div>
+                <div data-tab-panel-8 class="am-tab-panel">
+                    姑娘，你真是条汉子！
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="my-body-list-1">
+        <p style="text-align: center;margin-bottom: 0px"><i class="am-btn am-btn-danger am-btn-sm">Live</i> &nbsp;&nbsp;&nbsp;战旗TV直播撕逼啦！</p>
+        <hr class="my-divider">
+        <table>
+            <tr >
+                <td width="150px" height="30px" align="left"><i class="am-icon-file"></i>&nbsp;&nbsp;&nbsp;新闻•视频</td>
+                <td width="150px" height="30px" align="left"><i class="am-icon-film"></i>&nbsp;&nbsp;&nbsp;电影•电视剧</td>
+            </tr>
+            <tr>
+                <td width="150px" height="30px" align="left"><i class="am-icon-shopping-bag"></i>&nbsp;&nbsp;&nbsp;购物•海淘</td>
+                <td width="150px" height="30px" align="left"><i class="am-icon-money"></i>&nbsp;&nbsp;&nbsp;彩票•理财</td>
+            </tr>
+            <tr>
+                <td width="150px" height="30px" align="left"><i class="am-icon-cc-visa"></i>&nbsp;&nbsp;&nbsp;活期•基金</td>
+                <td width="150px" height="30px" align="left"><i class="am-icon-book"></i>&nbsp;&nbsp;&nbsp;小说•商城</td>
+            </tr>
+            <tr>
+                <td width="150px" height="30px" align="left"><i class="am-icon-gamepad"></i>&nbsp;&nbsp;&nbsp;游戏•小游戏</td>
+                <td width="150px" height="30px" align="left"><i class="am-icon-television"></i>&nbsp;&nbsp;&nbsp;动漫•直播秀</td>
+            </tr>
+            <tr>
+                <td width="150px" height="30px" align="left"><i class="am-icon-smile-o"></i>&nbsp;&nbsp;&nbsp;搞笑•解梦</td>
+                <td width="150px" height="30px" align="left"><i class="am-icon-futbol-o"></i>&nbsp;&nbsp;&nbsp;教育•度假</td>
+            </tr>
+            <tr>
+                <td width="150px" height="30px" align="left"><i class="am-icon-flash"></i>&nbsp;&nbsp;&nbsp;查询•星座</td>
+                <td width="150px" height="30px" align="left"><i class="am-icon-ticket"></i>&nbsp;&nbsp;&nbsp;机票•火车票</td>
+            </tr>
+            <tr>
+                <td width="150px" height="30px" align="left"><i class="am-icon-phone"></i>&nbsp;&nbsp;&nbsp;手机•娱乐</td>
+                <td width="150px" height="30px" align="left"><i class="am-icon-ambulance"></i>&nbsp;&nbsp;&nbsp;好药•旅游</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="my-body-list-2">
+        <table>
+            <tr>
+                <td>360搜索•商城</td>
+                <td><i class="am-icon-weibo"></i>新浪•微博</td>
+                <td><i class="am-icon-suitcase"></i> 天猫•精选</td>
+                <td>搜狐•视频</td>
+                <td>网易•邮箱</td>
+                <td>凤凰•军事</td>
+            </tr>
+            <tr>
+                <td>360游戏</td>
+                <td>淘 宝 网</td>
+                <td>网上购物</td>
+                <td>12306官网</td>
+                <td><i class="am-icon-save"></i> 360•手机卫士</td>
+                <td>携程旅行</td>
+            </tr>
+            <tr>
+                <td>爱 淘 宝</td>
+                <td><i class="am-icon-file-movie-o"></i> 360影视</td>
+                <td>聚 划 算</td>
+                <td>国美在线</td>
+                <td>东财•理财</td>
+                <td>今日热点</td>
+            </tr>
+            <tr>
+                <td><i class="am-icon-signal"></i> 京东商城</td>
+                <td>58 同 城</td>
+                <td>太平洋电脑</td>
+                <td>世纪佳缘</td>
+                <td>同程旅游</td>
+                <td>中关村在线</td>
+            </tr>
+        </table>
+            <hr class="my-divider">
+        <table>
+            <tr>
+                <td>汽车之家</td>
+                <td>易 车 网</td>
+                <td>太平洋汽车</td>
+                <td>安 居 客</td>
+                <td>折800</td>
+                <td><i class="am-icon-shopping-basket"></i> 苏宁易购</td>
+            </tr>
+            <tr>
+                <td>驴妈妈旅游</td>
+                <td>百度•热搜</td>
+                <td>赶 集 网</td>
+                <td>当 当 网</td>
+                <td><i class="am-icon-child"></i> 途牛旅游网</td>
+                <td>1 号 店</td>
+            </tr>
+            <tr>
+                <td>珍爱婚恋网</td>
+                <td>乐居二手房</td>
+                <td>亚 马 逊</td>
+                <td>艺 龙 网</td>
+                <td>去哪儿网</td>
+                <td>沪江网校</td>
+            </tr>
+            <tr>
+                <td>招商银行</td>
+                <td>宜 人 贷</td>
+                <td><i class="am-icon-map"></i> 唯 品 会</td>
+                <td>聚美优品</td>
+                <td>房 天 下</td>
+                <td>360好药</td>
+            </tr>
+            <tr>
+                <td>猎 聘 网</td>
+                <td>花椒直播</td>
+                <td>陆金所理财</td>
+                <td>六 间 房</td>
+                <td>携程机票</td>
+                <td>在线教育</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="my-body-list-3">
+        <div data-am-widget="slider" class="am-slider am-slider-b1" data-am-slider='{&quot;controlNav&quot;:false}' >
+            <ul class="am-slides">
+                <li>
+                    <img src="http://s.amazeui.org/media/i/demos/bing-1.jpg">
+                    <div class="am-slider-desc">
+                        <span style="margin-left: 20px">小岳岳好任性&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 一言不合就开打</span>
+                        <br>
+                        <span style="margin-left: 20px"">美女玩家求脱单&nbsp;&nbsp;&nbsp; 你还等待什么呢</span>
+                    </div>
+
+                </li>
+                <li>
+                    <img src="http://s.amazeui.org/media/i/demos/bing-2.jpg">
+                    <div class="am-slider-desc">
+                        <span style="margin-left: 20px">1.76传奇复古&nbsp;&nbsp;&nbsp; 上万玩家热血PK </span>
+                        <br>
+                        <span style="margin-left: 20px"">装备全靠打&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; 非RMB必玩边玩边赚</span>
+                    </div>
+                </li>
+                <li>
+                    <img src="http://s.amazeui.org/media/i/demos/bing-3.jpg">
+                    <div class="am-slider-desc">
+                        <span style="margin-left: 20px">荣耀8新品1999元起&nbsp;&nbsp;&nbsp; 立即预约 </span>
+                        <br>
+                        <span style="margin-left: 20px">双镜头&nbsp;&nbsp; 双2.5D玻璃&nbsp;&nbsp; 双功能指纹</span>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+
+    <div class="my-body-list-5">
+        <div data-am-widget="titlebar" class="am-titlebar am-titlebar-default" style="margin-top: 0px;height: 50px" >
+            <h4 style="color: green">发现你喜欢</h4>
+            <nav class="am-title-nav" style="margin-left: 750px">
+<!--                <a href="#more" class="">more &raquo;</a>-->
+                    <a href="#">&laquo;</a>
+                    <a href="#">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">&raquo;</a>
+            </nav>
+        </div>
+        <table>
+            <tr>
+                <td class="list5-tableh">游戏</td>
+                <td class="list5-table">91游戏娱乐</td>
+                <td class="list5-table">我是大主宰</td>
+                <td class="list5-table">每日轻松游戏</td>
+                <td class="list5-table">手机游戏中心</td>
+                <td class="list5-table">游侠网</td>
+                <td class="list5-table">太平洋游戏</td>
+                <td class="list5-tablet">换一换</td>
+            </tr>
+            <tr>
+                <td class="list5-tableh">财经</td>
+                <td class="list5-table">身份证贷20万</td>
+                <td class="list5-table">三股票将爆发</td>
+                <td class="list5-table">此股跌无可跌</td>
+                <td class="list5-table">此股要涨停</td>
+                <td class="list5-table">5万小额贷款</td>
+                <td class="list5-table">随时轻松理财</td>
+                <td class="list5-tablet">换一换</td>
+            </tr>
+            <tr>
+                <td class="list5-tableh">热门</td>
+                <td class="list5-table">1元包邮</td>
+                <td class="list5-table">特色婚宴</td>
+                <td class="list5-table">3股反弹翻倍</td>
+                <td class="list5-table">明日牛股</td>
+                <td class="list5-table">主力抄底名单</td>
+                <td class="list5-table">5月A股走势</td>
+                <td class="list5-tablet">换一换</td>
+            </tr>
+            <tr>
+                <td class="list5-tableh">生活</td>
+                <td class="list5-table">瓜子二手车</td>
+                <td class="list5-table">主题婚纱摄影</td>
+                <td class="list5-table">大盘马上飙升</td>
+                <td class="list5-table">牛股预测</td>
+                <td class="list5-table">网络贷款平台</td>
+                <td class="list5-table">宝宝树</td>
+                <td class="list5-tablet">换一换</td>
+            </tr>
+            <tr>
+                <td class="list5-tableh">购物</td>
+                <td class="list5-table" >全场1元</td>
+                <td class="list5-table">10元清仓</td>
+                <td class="list5-table">包邮天天特价</td>
+                <td class="list5-table">9.99块9包邮清仓</td>
+                <td class="list5-table">天天特价8.8</td>
+                <td class="list5-table">8元包邮促销</td>
+                <td class="list5-tablet">换一换</td>
+            </tr>
+            <tr>
+                <td class="list5-tableh">军事</td>
+                <td class="list5-table">最新南海军情</td>
+                <td class="list5-table">特大军事消息</td>
+                <td class="list5-table">惊天军事头条</td>
+                <td class="list5-table">军事头条</td>
+                <td class="list5-table">米尔军事</td>
+                <td class="list5-table">军情聚焦</td>
+                <td class="list5-tablet">换一换</td>
+            </tr>
+        </table>
+    </div>
+
+    <div class="my-body-list-4">
+        <header class="am-topbar">
+            <span class="am-topbar-brand">猜你喜欢</span>
+            <div class="am-collapse am-topbar-collapse am-topbar-right" style="margin-top: 10px">
+                <i class="am-icon-windows"></i>&nbsp;换一下
+            </div>
+        </header>
+        <div class="list4-tab-1">
+            <ul class="am-nav am-nav-tabs ">
+                <li class="am-active"><a href="#">头条</a> </li>
+                <li><a href="#">八卦</a></li>
+                <li><a href="#">看天下</a></li>
+                <li><a href="#">万象</a></li>
+            </ul>
+            <div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider="{}">
+                <ul class="am-slides">
+                    <li>
+                        <img src="assets/i/myimg/1.jpg" style="width: 320px;height: 200px">
+                    </li>
+                    <li>
+                        <img src="assets/i/myimg/2.jpg" style="width: 320px;height: 200px">
+                    </li>
+                    <li>
+                        <img src="assets/i/myimg/3.jpg" style="width: 320px;height: 200px">
+                    </li>
+                </ul>
+            </div>
+            <ul>
+                <li>南日记者涉强奸女实习生被批捕</li>
+                <li>江苏落马官员:我的话就是圣旨</li>
+                <li>猥亵男逃跑中不忘摸众女孩屁股</li>
+                <li>怒斥咸猪手被尾随少女遭围殴</li>
+            </ul>
+        </div>
+        <div class="list4-tab-2">
+            <ul class="am-nav am-nav-tabs ">
+                <li class="am-active"><a href="#">视频</a> </li>
+                <li><a href="#">电视剧</a></li>
+                <li><a href="#">电影</a></li>
+                <li><a href="#">花边</a></li>
+            </ul>
+            <div data-am-widget="slider" class="am-slider am-slider-default" data-am-slider="{}">
+                <ul class="am-slides">
+                    <li>
+                        <img src="assets/i/myimg/4.jpg" style="width: 320px;height: 200px">
+                    </li>
+                    <li>
+                        <img src="assets/i/myimg/5.jpg" style="width: 320px;height: 200px">
+                    </li>
+                    <li>
+                        <img src="assets/i/myimg/6.jpg" style="width: 320px;height: 200px">
+                    </li>
+                </ul>
+            </div>
+            <table>
+                <tr>
+                    <td>•&nbsp;十万个冷笑话</td>
+                    <td>•&nbsp;女生玩了心跳</td>
+                </tr>
+                <tr>
+                    <td>•&nbsp;非RMB玩家进</td>
+                    <td>•&nbsp;宅男玩了尖叫</td>
+                </tr>
+                <tr>
+                    <td>•&nbsp;儿童画画游戏</td>
+                    <td>•&nbsp;植物大战僵尸</td>
+                </tr>
+                <tr>
+                    <td>•&nbsp;连连看小游戏</td>
+                    <td>•&nbsp;挑战保卫萝卜</td>
+                </tr>
+            </table>
+        </div>
+
+    </div>
+</div>
 
 <!--[if (gte IE 9)|!(IE)]><!-->
 <script src="assets/js/jquery.min.js"></script>
