@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <script src="assets/js/jquery.min.js"></script>
+    <script src="assets/js/amazeui.min.js"></script>
+    <script src="assets/js/test.js"></script>
+    <link rel="stylesheet" href="assets/css/amazeui.min.css">
+    <link rel="stylesheet" href="assets/css/app.css">
+
+    <style>
+        #vld-tooltip {
+            position: absolute;
+            z-index: 1000;
+            padding: 5px 10px;
+            background: #F37B1D;
+            min-width: 150px;
+            color: #fff;
+            transition: all 0.15s;
+            box-shadow: 0 0 5px rgba(0,0,0,.15);
+            display: none;
+        }
+
+        #vld-tooltip:before {
+            position: absolute;
+            top: -8px;
+            left: 50%;
+            width: 0;
+            height: 0;
+            margin-left: -8px;
+            content: "";
+            border-width: 0 8px 8px;
+            border-color: transparent transparent #F37B1D;
+            border-style: none inset solid;
+        }
+    </style>
+</head>
+<body>
+<div class="am-btn-group" data-am-button>
+    <label class="am-btn am-btn-primary">
+        <input type="checkbox" name="doc-js-btn" value="苹果"> 苹果
+    </label>
+    <label class="am-btn am-btn-primary">
+        <input type="checkbox" name="doc-js-btn" value="橘子"> 橘子
+    </label>
+    <label class="am-btn am-btn-primary">
+        <input type="checkbox" name="doc-js-btn" value="香蕉"> 香蕉
+    </label>
+</div>
+<script>
+    $(function() {
+        var $cb = $('[name="doc-js-btn"]');
+        $cb.on('change', function() {
+            var checked = [];
+            $cb.filter(':checked').each(function() {
+                checked.push(this.value);
+            });
+
+            console.log('复选框选中的是：', checked.join(' | '));
+        });
+    });
+</script>
+<ul class="am-list admin-sidebar-list" id="collapase-nav-1">
+    <li class="am-panel">
+        <a id="role-nav">
+            <i class="am-icon-table am-margin-left-sm"></i> 角色管理 <i class="am-icon-angle-right am-fr am-margin-right"></i>
+        </a>
+        <ul class="am-list am-collapse admin-sidebar-sub" id="role-nav">
+            <li><a href="#/roleAdd"><span class="am-icon-table am-margin-left-sm"></span> 添加角色 </a></li>
+            <li><a href="#/roleList/0"><span class="am-icon-table am-margin-left-sm"></span> 角色列表 </a></li>
+        </ul>
+    </li>
+</ul>
+
+<form action="" class="am-form" id="doc-vld-msg">
+    <fieldset>
+        <legend>JS 表单验证</legend>
+        <div class="am-form-group">
+            <label for="doc-vld-name-2">用户名：</label>
+            <input type="text" id="doc-vld-name-2" minlength="3" placeholder="输入用户名（至少 3 个字符）" required/>
+        </div>
+
+        <div class="am-form-group">
+            <label for="doc-vld-email-2">邮箱：</label>
+            <input type="email" id="doc-vld-email-2-1" data-validation-message="自定义提示信息：输入地球上的电子邮箱撒" placeholder="输入邮箱" required/>
+        </div>
+
+        <div class="am-form-group">
+            <label for="doc-vld-url-2">网址：</label>
+            <input type="url" id="doc-vld-url-2" placeholder="输入网址" required/>
+        </div>
+
+        <div class="am-form-group">
+            <label for="doc-vld-age-2">年龄：</label>
+            <input type="number" class=""  id="doc-vld-age-2" placeholder="输入年龄  18-120" min="18" max="120" required />
+        </div>
+
+        <div class="am-form-group">
+            <label class="am-form-label">爱好：</label>
+            <label class="am-checkbox-inline">
+                <input type="checkbox" value="橘子" name="docVlCb" minchecked="2" maxchecked="4" required> 橘子
+            </label>
+            <label class="am-checkbox-inline">
+                <input type="checkbox" value="苹果" name="docVlCb"> 苹果
+            </label>
+            <label class="am-checkbox-inline">
+                <input type="checkbox" value="菠萝" name="docVlCb"> 菠萝
+            </label>
+            <label class="am-checkbox-inline">
+                <input type="checkbox" value="芒果" name="docVlCb"> 芒果
+            </label>
+            <label class="am-checkbox-inline">
+                <input type="checkbox" value="香蕉" name="docVlCb"> 香蕉
+            </label>
+        </div>
+
+        <div class="am-form-group">
+            <label>性别： </label>
+            <label class="am-radio-inline">
+                <input type="radio"  value="" name="docVlGender" required> 男
+            </label>
+            <label class="am-radio-inline">
+                <input type="radio" name="docVlGender"> 女
+            </label>
+            <label class="am-radio-inline">
+                <input type="radio" name="docVlGender"> 其他
+            </label>
+        </div>
+
+        <div class="am-form-group">
+            <label for="doc-select-1">下拉单选框</label>
+            <select id="doc-select-1" required>
+                <option value="">-=请选择一项=-</option>
+                <option value="option1">选项一...</option>
+                <option value="option2">选项二.....</option>
+                <option value="option3">选项三........</option>
+            </select>
+            <span class="am-form-caret"></span>
+        </div>
+
+        <div class="am-form-group">
+            <label for="doc-select-2">多选框</label>
+            <select multiple class="" id="doc-select-2" minchecked="2" maxchecked="4">
+                <option>1</option>
+                <option>2</option>
+                <option>3</option>
+                <option>4</option>
+                <option>5</option>
+            </select>
+        </div>
+
+        <div class="am-form-group">
+            <label for="doc-vld-ta-2">评论：</label>
+            <textarea id="doc-vld-ta-2" minlength="10" maxlength="100"></textarea>
+        </div>
+
+        <button class="am-btn am-btn-secondary" type="submit">提交</button>
+    </fieldset>
+</form>
+
+<form action="" class="am-form" id="form-with-tooltip">
+    <fieldset>
+        <legend>定义 Tooltip</legend>
+        <div class="am-form-group">
+            <label for="doc-vld-name-2-0">用户名：</label>
+            <input type="text" id="doc-vld-name-2-0" minlength="3"
+                   placeholder="输入用户名（至少 3 个字符）" required/>
+        </div>
+
+        <div class="am-form-group">
+            <label for="doc-vld-pwd-1-0">密码：</label>
+            <input type="password" id="doc-vld-pwd-1-0" placeholder="6 位数字的银行卡密码" pattern="^\d{6}$" required data-foolish-msg="把 IQ 卡密码交出来！"/>
+        </div>
+
+        <button class="am-btn am-btn-secondary" type="submit">提交</button>
+    </fieldset>
+</form>
+
+<!-- 按钮触发器， 需要指定 target -->
+<button class="am-btn am-btn-success canvas-on" id="canvasbtn">右侧显示边栏</button>
+
+<!-- 侧边栏内容 -->
+<div id="doc-oc-demo3" class="am-offcanvas">
+    <div class="am-offcanvas-bar am-offcanvas-bar-flip">
+        <div class="am-offcanvas-content">
+            <p>
+                我不愿让你一个人 <br/>
+                承受这世界的残忍 <br/>
+                我不愿眼泪陪你到 永恒 <br/>
+            </p>
+            <p><a href="http://music.163.com/#/song?id=385554" target="_blank">网易音乐</a>      </p>
+        </div>
+    </div>
+</div>
+
+
+</body>
+</html>
