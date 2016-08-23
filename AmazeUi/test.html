@@ -53,8 +53,11 @@
         var $cb = $('[name="doc-js-btn"]');
         $cb.on('change', function() {
             var checked = [];
-            $cb.filter(':checked').each(function() {
+            $cb.filter(':checked').each(function(i) {
+/*                ":checked"选取所有选中的复选框
+                each是依次遍历所有符合条件的对象，function中的形参是下标，即选中元素的位置，从0开始*/
                 checked.push(this.value);
+                console.log(i);
             });
 
             console.log('复选框选中的是：', checked.join(' | '));
@@ -82,7 +85,7 @@
         </div>
 
         <div class="am-form-group">
-            <label for="doc-vld-email-2">邮箱：</label>
+            <label for="doc-vld-email-2-1">邮箱：</label>
             <input type="email" id="doc-vld-email-2-1" data-validation-message="自定义提示信息：输入地球上的电子邮箱撒" placeholder="输入邮箱" required/>
         </div>
 
@@ -194,6 +197,55 @@
     </div>
 </div>
 
+<form action="" class="am-form" data-am-validator>
+    <p>
+        <input type="text" class="am-form-field" placeholder="日历组件" data-am-datepicker readonly required />
+        <!--redonly: 不可输入-->
+    </p>
+    <p><button class="am-btn am-btn-primary">提交</button></p>
+</form>
+
+<div class="am-alert am-alert-danger" id="my-alert" style="display: none">
+    <p>开始日期应小于结束日期！</p>
+</div>
+<div class="am-g">
+    <div class="am-u-sm-6">
+        <button type="button" class="am-btn am-btn-default am-margin-right" id="my-start">开始日期</button><span id="my-startDate">2014-12-20</span>
+    </div>
+    <div class="am-u-sm-6">
+        <button type="button" class="am-btn am-btn-default am-margin-right" id="my-end">结束日期</button><span id="my-endDate">2014-12-25</span>
+    </div>
+</div>
+<script>
+    $(function() {
+        var startDate = new Date(2014, 11, 20);   /* 给日期赋值*/
+        var endDate = new Date(2014, 11, 25);
+        var $alert = $('#my-alert');  /* 提示信息控件*/
+        $('#my-start').datepicker().
+        on('changeDate.datepicker.amui', function(event) {    /*'changeDate.datepicker.amui'触发返回event参数，内含date成员可提取日期信息*/
+            if (event.date.valueOf() > endDate.valueOf()) {
+                $alert.find('p').text('开始日期应小于结束日期！').end().show();
+            } else {
+                $alert.hide();
+                startDate = new Date(event.date);
+                $('#my-startDate').text($('#my-start').data('date'));  /*把日历控件选择的时间赋值到text中显示*/
+            }
+            $(this).datepicker('close');   /*日期选择完后关闭日历控件*/
+        });
+
+        $('#my-end').datepicker().
+        on('changeDate.datepicker.amui', function(event) {
+            if (event.date.valueOf() < startDate.valueOf()) {
+                $alert.find('p').text('结束日期应大于开始日期！').end().show();
+            } else {
+                $alert.hide();
+                endDate = new Date(event.date);
+                $('#my-endDate').text($('#my-end').data('date'));
+            }
+            $(this).datepicker('close');
+        });
+    });
+</script>
 
 </body>
 </html>
