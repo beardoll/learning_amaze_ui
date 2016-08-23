@@ -4,6 +4,7 @@
     <list default="true" id="2cc1e758-c2ff-40cb-81d5-525819042d06" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AmazeUi/test.html" afterPath="$PROJECT_DIR$/AmazeUi/test.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/datetimepicker-master/.idea/workspace.xml" afterPath="$PROJECT_DIR$/datetimepicker-master/.idea/workspace.xml" />
     </list>
     <ignored path="learning_amaze_ui.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -27,7 +28,7 @@
       <file leaf-file-name="demo.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AmazeUi/demo.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
+            <state vertical-scroll-proportion="-0.0">
               <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
               <folding>
                 <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -51,8 +52,8 @@
       <file leaf-file-name="demo.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/AmazeUi/assets/css/demo.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0">
-              <caret line="147" column="11" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
+            <state vertical-scroll-proportion="-15.172414">
+              <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -61,11 +62,15 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AmazeUi/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.41811848">
-              <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+            <state vertical-scroll-proportion="0.58883995">
+              <caret line="369" column="9" selection-start-line="369" selection-start-column="9" selection-end-line="369" selection-end-column="9" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1471924937271" expanded="true" signature="1651:1931" placeholder="{...}" />
+                <marker date="1471955577778" expanded="true" signature="1728:2008" placeholder="{...}" />
+                <marker date="1471955577778" expanded="true" signature="10399:12729" placeholder="..." />
+                <marker date="1471955577778" expanded="true" signature="10399:12730" placeholder="{...}" />
+                <marker date="1471955577778" expanded="true" signature="11596:11606" placeholder="{...}" />
+                <marker date="1471955577778" expanded="true" signature="12575:12592" placeholder="{...}" />
               </folding>
             </state>
           </provider>
@@ -109,9 +114,10 @@
     <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="width" value="1924" />
-    <option name="height" value="1056" />
+    <option name="x" value="1912" />
+    <option name="y" value="-8" />
+    <option name="width" value="1616" />
+    <option name="height" value="876" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -292,10 +298,10 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="0" width="1924" height="1056" extended-state="0" />
+    <frame x="1912" y="-8" width="1616" height="876" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.298125" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -325,7 +331,9 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="2" />
+    </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
@@ -365,7 +373,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1471924937271" expanded="true" signature="1651:1931" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="1728:2008" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="10399:12729" placeholder="..." />
+            <marker date="1471955577778" expanded="true" signature="10399:12730" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="11596:11606" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="12575:12592" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -414,7 +426,11 @@
           <caret line="179" column="27" selection-start-line="179" selection-start-column="27" selection-end-line="180" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1471924937271" expanded="true" signature="1651:1931" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="1728:2008" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="10399:12729" placeholder="..." />
+            <marker date="1471955577778" expanded="true" signature="10399:12730" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="11596:11606" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="12575:12592" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -463,7 +479,11 @@
           <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1471924937271" expanded="true" signature="1651:1931" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="1728:2008" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="10399:12729" placeholder="..." />
+            <marker date="1471955577778" expanded="true" signature="10399:12730" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="11596:11606" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="12575:12592" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -517,7 +537,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="143956" selection-start-line="0" selection-start-column="143956" selection-end-line="0" selection-end-column="143956" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -735,7 +754,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="143956" selection-start-line="0" selection-start-column="143956" selection-end-line="0" selection-end-column="143956" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -748,7 +766,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/AmazeUi/demo.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
+        <state vertical-scroll-proportion="-0.0">
           <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
           <folding>
             <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
@@ -765,14 +783,6 @@
             <element signature="n#style#0;n#img#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#span#2;n#div#6;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/AmazeUi/assets/css/demo.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="147" column="11" selection-start-line="147" selection-start-column="11" selection-end-line="147" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -797,26 +807,46 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AmazeUi/assets/js/amazeui.ie8polyfill.min.js">
+    <entry file="file://$PROJECT_DIR$/AmazeUi/assets/css/demo.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        <state vertical-scroll-proportion="-15.172414">
+          <caret line="168" column="0" selection-start-line="168" selection-start-column="0" selection-end-line="168" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AmazeUi/assets/js/amazeui.js">
+    <entry file="file://$PROJECT_DIR$/AmazeUi/assets/js/app.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/AmazeUi/assets/js/jquery.min.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
-          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AmazeUi/assets/js/amazeui.ie8polyfill.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AmazeUi/assets/js/amazeui.min.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="n#!!doc" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -829,13 +859,32 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AmazeUi/assets/js/amazeui.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.492958">
+          <caret line="20" column="9" selection-start-line="20" selection-start-column="9" selection-end-line="20" selection-end-column="9" />
+          <folding>
+            <marker date="1464055380000" expanded="true" signature="13861:13945" placeholder="..." />
+            <marker date="1464055380000" expanded="true" signature="337084:337203" placeholder="..." />
+            <marker date="1464055380000" expanded="true" signature="337769:337847" placeholder="..." />
+            <marker date="1464055380000" expanded="false" signature="337914:337992" placeholder="..." />
+            <marker date="1464055380000" expanded="true" signature="338134:338194" placeholder="..." />
+            <marker date="1464055380000" expanded="true" signature="338738:338910" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AmazeUi/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.41811848">
-          <caret line="42" column="12" selection-start-line="42" selection-start-column="12" selection-end-line="42" selection-end-column="12" />
+        <state vertical-scroll-proportion="0.58883995">
+          <caret line="369" column="9" selection-start-line="369" selection-start-column="9" selection-end-line="369" selection-end-column="9" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1471924937271" expanded="true" signature="1651:1931" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="1728:2008" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="10399:12729" placeholder="..." />
+            <marker date="1471955577778" expanded="true" signature="10399:12730" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="11596:11606" placeholder="{...}" />
+            <marker date="1471955577778" expanded="true" signature="12575:12592" placeholder="{...}" />
           </folding>
         </state>
       </provider>
