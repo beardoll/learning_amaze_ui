@@ -8,84 +8,7 @@
     <script src="assets/js/test.js"></script>
     <link rel="stylesheet" href="assets/css/amazeui.min.css">
     <link rel="stylesheet" href="assets/css/app.css">
-
-    <style>
-        #vld-tooltip {
-            position: absolute;
-            z-index: 1000;
-            padding: 5px 10px;
-            background: #F37B1D;
-            min-width: 150px;
-            color: #fff;
-            transition: all 0.15s;
-            box-shadow: 0 0 5px rgba(0,0,0,.15);
-            display: none;
-        }
-
-        #vld-tooltip:before {
-            position: absolute;
-            top: -8px;
-            left: 50%;
-            width: 0;
-            height: 0;
-            margin-left: -8px;
-            content: "";
-            border-width: 0 8px 8px;
-            border-color: transparent transparent #F37B1D;
-            border-style: none inset solid;
-        }
-        .scrollspy-nav{
-            top: 0;
-            z-index: 100;  /*在position属性为relative, absolute或者fixed的时候有效，大的在上面*/
-            background: #0e90d2;
-            width: 100%;
-            padding: 0 10px;
-        }
-        .scrollspy-nav ul{
-            margin: 0;
-            padding: 0;
-        }
-        .scrollspy-nav li{
-            display: inline-block;
-            list-style: none;
-        }
-        .scrollspy-nav a{
-            color: #eee;
-            padding: 10px 20px;
-            display: inline-block;
-        }
-
-        .scrollspy-nav a.am-active {
-            color: #fff;
-            font-weight: bold;
-        }
-
-        .am-panel {
-            margin-top: 20px;
-        }
-
-        .am-tabs-nav li {
-            position: relative;
-            z-index: 1;
-        }
-
-        .am-tabs-nav .am-icon-close {  /*这里对'x'的位置进行了定义*/
-            position: absolute;
-            top: 0;
-            right: 10px;
-            color: #888;
-            cursor: pointer;
-            z-index: 100;
-        }
-
-        .am-tabs-nav .am-icon-close:hover {
-            color: #333;
-        }
-
-        .am-tabs-nav .am-icon-close ~ a {
-            padding-right: 25px!important;
-        }
-    </style>
+    <link rel="stylesheet" href="assets/css/test.css">
 </head>
 <body>
 
@@ -604,5 +527,81 @@
     })
 </script>
 
+
+<!------------------------------- magic button ---------------------------------->
+<br/>
+<br/>
+<br/>
+<div id="magic-test">
+<div class="am-btn am-btn-success magic-button" id="magicbtn">魔法按钮</div>
+</div>
+<br/>
+<br/>
+<br/>
+
+<script>
+    $(function(){
+        var rline = '<div class="magic-line1" id="rline"></div>';
+        var tline = '<div class="magic-line2" id="tline"></div>';
+        var lline = '<div class="magic-line1" id="lline"></div>';
+        var bline = '<div class="magic-line2" id="bline"></div>';
+        var $magicbtn = $('#magicbtn');
+        var topvalue = $magicbtn.offset().top;
+        var botvalue = topvalue + $magicbtn.height();
+        var leftvalue = $magicbtn.offset().left;
+        var rightvalue = leftvalue + $magicbtn.width();
+        $('#magic-test').append(rline);
+        $('#rline').hide();
+        $('#magic-test').append(tline);
+        $('#tline').hide();
+        $('#magic-test').append(lline);
+        $('#lline').hide();
+        $('#magic-test').append(bline);
+        $('#bline').hide();
+        $('#magicbtn').on('click', function(){
+            $('#rline').css({
+                position: 'absolute',
+                left: rightvalue + 70 + 'px',
+                top: topvalue + 'px'
+            });
+            $('#rline').show();
+            $('#rline').animate({
+                left: leftvalue,
+                width: "toggle"
+            },500);
+
+            $('#tline').css({
+                position: 'absolute',
+                left: leftvalue,
+                top: topvalue - 120 + 'px'
+            });
+            $('#tline').show();
+            $('#tline').animate({
+                top : topvalue,
+                height: "toggle"
+            },500)
+            $('#lline').css({
+                position: 'absolute',
+                left: leftvalue - 120 + 'px',
+                top: botvalue + 20 + 'px'
+            });
+            $('#lline').show();
+            $('#lline').animate({
+                left: leftvalue,
+                width: "toggle"
+            }, 500)
+            $('#bline').css({
+                position: 'absolute',
+                left: rightvalue + 30 +'px',
+                top: botvalue + 40 + 'px'
+            });
+            $('#bline').show();
+            $('#bline').animate({
+                top: topvalue,
+                height: "toggle"
+            })
+        })
+    })
+</script>
 </body>
 </html>

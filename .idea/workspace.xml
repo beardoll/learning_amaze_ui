@@ -2,6 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2cc1e758-c2ff-40cb-81d5-525819042d06" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/AmazeUi/assets/css/test.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AmazeUi/test.html" afterPath="$PROJECT_DIR$/AmazeUi/test.html" />
     </list>
@@ -61,16 +62,26 @@
       <file leaf-file-name="test.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/AmazeUi/test.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.11730546">
-              <caret line="572" column="6" selection-start-line="572" selection-start-column="6" selection-end-line="572" selection-end-column="6" />
+            <state vertical-scroll-proportion="0.76771194">
+              <caret line="591" column="19" selection-start-line="591" selection-start-column="19" selection-end-line="591" selection-end-column="19" />
               <folding>
                 <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-                <marker date="1472044516066" expanded="true" signature="2924:3204" placeholder="{...}" />
-                <marker date="1472044516066" expanded="true" signature="11597:13927" placeholder="..." />
-                <marker date="1472044516066" expanded="true" signature="11597:13928" placeholder="{...}" />
-                <marker date="1472044516066" expanded="true" signature="12794:12804" placeholder="{...}" />
-                <marker date="1472044516066" expanded="true" signature="13773:13790" placeholder="{...}" />
+                <marker date="1472128121592" expanded="true" signature="1076:1356" placeholder="{...}" />
+                <marker date="1472128121592" expanded="true" signature="9749:12079" placeholder="..." />
+                <marker date="1472128121592" expanded="true" signature="9749:12080" placeholder="{...}" />
+                <marker date="1472128121592" expanded="true" signature="10946:10956" placeholder="{...}" />
+                <marker date="1472128121592" expanded="true" signature="11925:11942" placeholder="{...}" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="test.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/AmazeUi/assets/css/test.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-25.551723">
+              <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -103,6 +114,7 @@
         <option value="$PROJECT_DIR$/AmazeUi/assets/css/demo.css" />
         <option value="$PROJECT_DIR$/AmazeUi/assets/js/test.js" />
         <option value="$PROJECT_DIR$/AmazeUi/demo.html" />
+        <option value="$PROJECT_DIR$/AmazeUi/assets/css/test.css" />
         <option value="$PROJECT_DIR$/AmazeUi/test.html" />
       </list>
     </option>
@@ -144,7 +156,6 @@
     </navigator>
     <panes>
       <pane id="Scratches" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -217,8 +228,31 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning_amaze_ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="learning_amaze_ui" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="AmazeUi" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="assets" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="css" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -336,28 +370,6 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/AmazeUi/demo.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="37" column="6" selection-start-line="37" selection-start-column="6" selection-end-line="37" selection-end-column="6" />
-          <folding>
-            <element signature="n#div#1;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#2;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#3;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#div#4;n#div#2;n#body#0;n#html#0;n#!!top" expanded="false" />
-            <element signature="n#style#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#ul#0;n#div#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#0;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#1;n#div#0;n#li#0;n#ul#0;n#div#0;n#div#5;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#0;n#ul#0;n#div#0;n#div#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#1;n#ul#0;n#div#0;n#div#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#li#2;n#ul#0;n#div#0;n#div#0;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#span#2;n#div#6;n#div#7;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AmazeUi/assets/css/demo.css">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="0.0">
@@ -372,11 +384,11 @@
           <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1472044516066" expanded="true" signature="2924:3204" placeholder="{...}" />
-            <marker date="1472044516066" expanded="true" signature="11597:13927" placeholder="..." />
-            <marker date="1472044516066" expanded="true" signature="11597:13928" placeholder="{...}" />
-            <marker date="1472044516066" expanded="true" signature="12794:12804" placeholder="{...}" />
-            <marker date="1472044516066" expanded="true" signature="13773:13790" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="1076:1356" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="9749:12079" placeholder="..." />
+            <marker date="1472128121592" expanded="true" signature="9749:12080" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="10946:10956" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="11925:11942" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -425,11 +437,11 @@
           <caret line="179" column="27" selection-start-line="179" selection-start-column="27" selection-end-line="180" selection-end-column="54" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1472044516066" expanded="true" signature="2924:3204" placeholder="{...}" />
-            <marker date="1472044516066" expanded="true" signature="11597:13927" placeholder="..." />
-            <marker date="1472044516066" expanded="true" signature="11597:13928" placeholder="{...}" />
-            <marker date="1472044516066" expanded="true" signature="12794:12804" placeholder="{...}" />
-            <marker date="1472044516066" expanded="true" signature="13773:13790" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="1076:1356" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="9749:12079" placeholder="..." />
+            <marker date="1472128121592" expanded="true" signature="9749:12080" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="10946:10956" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="11925:11942" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -478,11 +490,11 @@
           <caret line="195" column="0" selection-start-line="195" selection-start-column="0" selection-end-line="195" selection-end-column="0" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1472044516066" expanded="true" signature="2924:3204" placeholder="{...}" />
-            <marker date="1472044516066" expanded="true" signature="11597:13927" placeholder="..." />
-            <marker date="1472044516066" expanded="true" signature="11597:13928" placeholder="{...}" />
-            <marker date="1472044516066" expanded="true" signature="12794:12804" placeholder="{...}" />
-            <marker date="1472044516066" expanded="true" signature="13773:13790" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="1076:1356" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="9749:12079" placeholder="..." />
+            <marker date="1472128121592" expanded="true" signature="9749:12080" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="10946:10956" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="11925:11942" placeholder="{...}" />
           </folding>
         </state>
       </provider>
@@ -820,14 +832,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/AmazeUi/assets/js/test.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0">
-          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/AmazeUi/assets/js/amazeui.js">
       <provider selected="true" editor-type-id="text-editor">
         <state vertical-scroll-proportion="-9.492958">
@@ -857,17 +861,33 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/AmazeUi/assets/js/test.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0">
+          <caret line="47" column="0" selection-start-line="47" selection-start-column="0" selection-end-line="47" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AmazeUi/assets/css/test.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-25.551723">
+          <caret line="85" column="30" selection-start-line="85" selection-start-column="30" selection-end-line="85" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/AmazeUi/test.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.11730546">
-          <caret line="572" column="6" selection-start-line="572" selection-start-column="6" selection-end-line="572" selection-end-column="6" />
+        <state vertical-scroll-proportion="0.76771194">
+          <caret line="591" column="19" selection-start-line="591" selection-start-column="19" selection-end-line="591" selection-end-column="19" />
           <folding>
             <element signature="n#style#0;n#div#2;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <marker date="1472044516066" expanded="true" signature="2924:3204" placeholder="{...}" />
-            <marker date="1472044516066" expanded="true" signature="11597:13927" placeholder="..." />
-            <marker date="1472044516066" expanded="true" signature="11597:13928" placeholder="{...}" />
-            <marker date="1472044516066" expanded="true" signature="12794:12804" placeholder="{...}" />
-            <marker date="1472044516066" expanded="true" signature="13773:13790" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="1076:1356" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="9749:12079" placeholder="..." />
+            <marker date="1472128121592" expanded="true" signature="9749:12080" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="10946:10956" placeholder="{...}" />
+            <marker date="1472128121592" expanded="true" signature="11925:11942" placeholder="{...}" />
           </folding>
         </state>
       </provider>
