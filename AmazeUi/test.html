@@ -546,10 +546,11 @@
         var lline = '<div class="magic-line1" id="lline"></div>';
         var bline = '<div class="magic-line2" id="bline"></div>';
         var $magicbtn = $('#magicbtn');
-        var topvalue = $magicbtn.offset().top;
-        var botvalue = topvalue + $magicbtn.height();
-        var leftvalue = $magicbtn.offset().left;
-        var rightvalue = leftvalue + $magicbtn.width();
+        var x = $magicbtn.position();
+        var topvalue = x.top;
+        var botvalue = topvalue + $magicbtn.outerHeight(true);
+        var leftvalue = x.left;
+        var rightvalue = leftvalue + $magicbtn.outerWidth(true);
         $('#magic-test').append(rline);
         $('#rline').hide();
         $('#magic-test').append(tline);
@@ -561,44 +562,47 @@
         $('#magicbtn').on('click', function(){
             $('#rline').css({
                 position: 'absolute',
-                left: rightvalue + 70 + 'px',
-                top: topvalue + 'px'
+                left: rightvalue + 200 + 'px',
+                top: topvalue + 'px',
+                width: 0
             });
             $('#rline').show();
             $('#rline').animate({
-                left: leftvalue,
-                width: "toggle"
+                width:$magicbtn.outerWidth(true)+'px',  //outer是包括外边框的整个控件的大小
+                left: leftvalue
             },500);
 
             $('#tline').css({
                 position: 'absolute',
                 left: leftvalue,
-                top: topvalue - 120 + 'px'
+                top: topvalue - 120 + 'px',
+                height: 0
             });
             $('#tline').show();
             $('#tline').animate({
                 top : topvalue,
-                height: "toggle"
+                height: $magicbtn.outerHeight(true)+'px'
             },500)
             $('#lline').css({
                 position: 'absolute',
                 left: leftvalue - 120 + 'px',
-                top: botvalue + 20 + 'px'
+                top: botvalue -1 + 'px',   //减一是考虑到了线宽
+                width: 0
             });
             $('#lline').show();
             $('#lline').animate({
                 left: leftvalue,
-                width: "toggle"
+                width: $magicbtn.outerWidth(true)+'px'
             }, 500)
             $('#bline').css({
                 position: 'absolute',
-                left: rightvalue + 30 +'px',
-                top: botvalue + 40 + 'px'
+                left: rightvalue -1 +'px',
+                top: botvalue  + 'px'
             });
             $('#bline').show();
             $('#bline').animate({
                 top: topvalue,
-                height: "toggle"
+                height: $magicbtn.outerHeight(true)+'px'
             })
         })
     })
