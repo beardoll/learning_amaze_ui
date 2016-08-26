@@ -527,9 +527,32 @@
     })
 </script>
 
+<div class="am-tabs" id="doc-my-tabs">
+    <ul class="am-tabs-nav am-nav am-nav-tabs am-nav-justify">
+        <li class="am-active"><a href="">彩虹</a></li>
+        <li><a href="">画面</a></li>
+        <li><a href="">窗外</a></li>
+    </ul>
+    <div class="am-tabs-bd">
+        <div class="am-tab-panel am-active">...</div>
+        <div class="am-tab-panel">...</div>
+        <div class="am-tab-panel">...</div>
+    </div>
+    <button class="am-btn am-btn-primary" id="second2">打开第二个标签页</button>
+</div>
+
+<script>
+    $(function() {   // 初始化选项卡
+        $('#doc-my-tabs').tabs();
+        $('#second2').on('click',function(){
+            $('#doc-my-tabs').tabs('open', 1);
+        })
+    })
+</script>
+
 
 <!------------------------------- magic button ---------------------------------->
-<br/>
+<!--<br/>
 <br/>
 <br/>
 <div id="magic-test">
@@ -606,6 +629,30 @@
             })
         })
     })
+</script>-->
+
+<!------------------------------- 下拉菜单功能 ------------------------------------>
+<div id="doc-dropdown-justify-js" style="width: 400px">
+    <div class="am-dropdown" id="doc-dropdown-js"> <!--需要在下拉按钮外面包裹一层“am-dropdown”-->
+        <button class="am-btn am-btn-danger am-dropdown-toggle">通过 JS 调用 <span class="am-icon-caret-down"></span></button>
+        <div class="am-dropdown-content">
+            <h2>I am what I am</h2>
+            <p>
+                多么高兴 在琉璃屋中快乐生活
+                对世界说 甚么是光明和磊落
+                我就是我 是颜色不一样的烟火
+            </p>
+        </div>
+    </div>
+    <button class="am-btn am-btn-default" id="dest">点击将隐藏下拉菜单</button>
+</div>
+<script>
+    $(function() {
+        $('#doc-dropdown-js').dropdown();
+        $('#dest').on('click',function(){
+            $('#doc-dropdown-js').dropdown('close');
+        })
+    });
 </script>
 </body>
 </html>
